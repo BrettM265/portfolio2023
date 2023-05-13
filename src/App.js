@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React  from 'react';
+import {motion} from "framer-motion/dist/framer-motion";
 import './App.css';
+import IntroSection from './introduction';
+import AboutSection from './about-section';
+import ProjectSection from './project-section';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/*<IntroSection />*/}
+      <div className='Body'>
+      <AboutSection />
+      <ProjectSection />
+      </div>
     </div>
   );
 }

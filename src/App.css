@@ -1,38 +1,151 @@
-.App {
+**{
+  margin:0;
+  padding:0;
+}
+
+.introScreen{
+  text-align:center;
+  background-color: rgb(255, 183, 116);
+  min-height:100vh;
+  position: absolute;
+  min-width:100vw;
+  z-index: 1;
+}
+
+.introScreen h1{
+  margin:0;
+  padding-top:30vh;
+  font-size:50px;
+}
+
+.introScreen h3{
+  font-size:25px;
+}
+
+.introContinue{
+  margin-top:300px;
+  font-size: 40px;
+}
+
+.aboutBody{
+  background: linear-gradient(rgb(86, 86, 199), rgb(107, 67, 182));
+  min-height:650px;
+  border-bottom: 5px solid black;
+}
+
+.ul-container{
+}
+
+.aboutTitle{
+  font-size:48px;
   text-align: center;
+  font-weight: bold;
+  color:white;
+  text-shadow: 1px 1px 2px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ul-about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin:0 auto 0 auto;
+  max-width:1200px;
+  text-align: center;
+  padding-left:5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card-item{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:10px 0;
+  border: solid black;
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  height:200px;
+  width:500px;
+  margin-bottom:20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-item p{
+  font-weight:600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.card-item:hover{
+  cursor: pointer;
   }
-  to {
-    transform: rotate(360deg);
+
+.card-title{
+    text-align: center;
   }
+
+.about-item{
+  position: fixed;
+  left:35%;
+  top: 30%;
+  border: solid black;
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  height:200px;
+  width:500px;
+}
+
+.about-image{
+  width:100px;
+}
+
+
+.projectSection{
+  background: linear-gradient(rgb(107, 67, 182), rgb(86, 86, 199));
+  min-height:650px;
+  border-bottom: 5px solid black;
+  
+}
+
+
+.project-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin:0 auto 0 auto;
+  max-width:1200px;
+  padding: 5% 5% 5% 5%;
+}
+
+.project-list p{
+padding:0 30px;
+}
+
+.border-bottom-project{
+  border-bottom: 5px dotted black;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+
+.project-image{
+border: 5px solid black;
+border-radius: 25px;
+}
+
+.text-box{
+  background-color:white;
+  border: 5px solid black;
+  border-radius: 10px;
+  max-width:600px;
+}
+
+.text-box h4{
+  text-align: center;
+  font-size:32px;
+  margin-top:0;
+  text-decoration: underline;
+}
+
+.project-image{
+  background-size: contain;
+  width:500px;
+  max-height:400px;
+}
+.right-pane-img{
+  text-align: right;
 }
