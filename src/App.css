@@ -149,3 +149,47 @@ border-radius: 25px;
 .right-pane-img{
   text-align: right;
 }
+
+.footerSection{
+  background-color: rgb(90, 90, 90);
+  min-height:400px;
+  color:white;
+}
+
+.footerTitle{
+  margin:0;
+  text-align: center;
+}
+
+.footerOne{
+  max-width:300px;
+  position:absolute;
+  left:25%;
+  margin-top:50px;
+}
+
+.footerOne img{
+  width:50px;
+  height: 50px;
+  padding:10px 10px 0px 0px;
+}
+
+.footerTwo{
+  max-width:300px;
+  position:absolute;
+  right:25%;
+  margin-top:50px;
+}
+
+.footer-left{
+ display: flex;
+}
+
+.footer-left a{
+  color:white;
+}
+
+.small{
+  width:30px!important;
+  height:30px!important;
+}
