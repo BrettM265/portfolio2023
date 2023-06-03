@@ -9,25 +9,25 @@ function AboutSection() {
     {
       id: 1,
       name: "Coding Knowledge",
-      dec: "test desc.",
+      dec: "As a Front-End Developer, I have a strong understanding of HTML, CSS, and JavaScript. React.JS is my preferred framework. Working in this field has allowed me to gain a strong understanding of the fundamentals of coding. I've been exposed to Liquid, PHP, and Hosting Management.",
       image: "/images/logo192.png",
     },
     {
       id: 2,
       name: "Leadership Skills",
-      dec: "test desc.",
+      dec: "I have a significant amount of Leadership experience. Before I began my career in Web Development, I was a Manager at my colleges gym. In my current role, I've been fortunate to lead the frontend development of an internal application. I also teach my coworkers about Javascript on a bi-weekly basis.",
       image: "/images/leadership-image-1.png",
     },
     {
       id: 3,
       name: "CMS Expertise",
-      dec: "test desc.",
+      dec: "In my current role I work in an expansive amount of CMS's. I have a strong understanding of Shopify, Wordpress, Webflow, and Bigcommerce. I've also worked in various other CMS's, providing me with a strong understanding of the fundamentals of CMS's.",
       image: "/images/wordpress-logo.jpg",
     },
     {
       id: 4,
       name: "Past | Present | Future",
-      dec: "test desc.",
+      dec: "In college my studies focused on I.T. I discovered a passion for Web Development and decided to pursue it as a career. I've been working in the field for 2 years now and I'm excited to see what the future holds. Expanding my knowledge and skillset is a top priority. I plan to further my understanding of frontend development and eventually transition into a Full-Stack Developer.",
       image: "/images/future-image.png",
     },
   ];
@@ -69,7 +69,7 @@ function AboutSection() {
   };
   return (
     <section className="aboutBody">
-    <div className='aboutTitle'>ABOUT</div>
+    <div className='aboutTitle'>SKILLS</div>
     <div className='ul-container'>
       <motion.ul
         style={{
