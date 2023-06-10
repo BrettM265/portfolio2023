@@ -4,7 +4,7 @@ import './App.css';
 import IntroSection from './introduction';
 import AboutSection from './about-section';
 import ProjectSection from './project-section';
-import Footer from './contact-me';
+import Footer from './footer';
 
 function App() {
   return (
