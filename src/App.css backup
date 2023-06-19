@@ -28,7 +28,7 @@
 }
 
 .aboutBody{
-  background: linear-gradient(rgb(86, 86, 199), rgb(107, 67, 182));
+  background: linear-gradient(#003049, #669BBC);
   min-height:650px;
   border-bottom: 5px solid black;
 }
@@ -79,6 +79,9 @@
     text-align: center;
   }
 
+  .card-text{
+    padding:0 10px;
+  }
 .about-item{
   position: fixed;
   left:35%;
@@ -96,9 +99,8 @@
 
 
 .projectSection{
-  background: linear-gradient(rgb(107, 67, 182), rgb(86, 86, 199));
+  background: linear-gradient(#669BBC,#003049);
   min-height:650px;
-  border-bottom: 5px solid black;
   
 }
 
@@ -132,13 +134,25 @@ border-radius: 25px;
   border: 5px solid black;
   border-radius: 10px;
   max-width:600px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .text-box h4{
   text-align: center;
   font-size:32px;
-  margin-top:0;
+  margin:0;
   text-decoration: underline;
+  color: black;
+}
+
+.text-box-link a{
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color:black;
+  padding-bottom: 20px;
+  font-weight: 600;
 }
 
 .project-image{
@@ -151,16 +165,24 @@ border-radius: 25px;
 }
 
 .footerSection{
-  background-color: rgb(90, 90, 90);
-  min-height:400px;
+  background: linear-gradient(#003049, #669BBC);
   color:white;
+  padding-bottom: 20px;
 }
 
 .footerWrapper{
-  display: flex;
   max-width:1200px;
   margin:0 auto 0 auto;
-  padding-top:50px;
+  justify-content: space-evenly;
+  padding: 25px 0 0 0;
+  background-color: #003049;
+  border: black solid 5px;
+  border-radius: 25px;
+}
+
+.footerRow{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
@@ -170,7 +192,17 @@ border-radius: 25px;
 }
 
 .footerOne{
-  width:30%;
+  max-width:400px;
+  
+}
+.footerOne ul{
+  list-style-type: none;
+}
+
+.footerNavigation li{
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-decoration: underline;
 }
 
 .footerOne img{
@@ -180,35 +212,25 @@ border-radius: 25px;
 }
 
 .footerTwo{
-  width:30%;
-  text-align: center;
+  width: 50%;
+  max-width:400px;
 }
 
-.footer-left{
- display: flex;
-}
-
-.footer-left a{
-  color:white;
-}
-
-.footerThree{
-  width:30%;
-}
-.footerThree h3{
-  margin:0;
-}
 
 .small{
   width:30px!important;
   height:30px!important;
+  padding-right:10px;
 }
 
-.footer-portrait{
-  width:100px;
-  height:100px;
-  border-radius: 50%;
-  border: 5px solid rgb(255, 255, 255);
-  margin: 20px auto 0 auto;
+.social-icons{
+  
+}
+
+.footer-bottom{
+  text-align: center;
   display: block;
+}
+.footer-bottom p{
+  margin:0;
 }

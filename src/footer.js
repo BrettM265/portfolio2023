@@ -6,17 +6,21 @@ function Footer() {
         <>
         <div className='footerSection'>
             <div className='footerWrapper'>
+            <img src="images/Logo small.png" class='footer-logo' />
+            <div className="footerRow">
             <div className='footerOne'>
+            <h3>Navigation</h3>
             <div className='footerNavigation'>
             <ul>
             <li>Top of Page</li>
             <li>Skills</li>
             <li>Projects</li>
-            <ul>
-            <li>Game Shop</li>
-            <li>Tic Tac Toe</li>
-            <li>Weather App</li>
-            </ul>
+
+                <ul>
+                <li>Game Shop</li>
+                <li>Tic Tac Toe</li>
+                <li>Weather App</li>
+                </ul>
 
             </ul>
             </div>
@@ -40,6 +44,7 @@ function Footer() {
             <div className='footer-bottom'>
             <img src='/images/logo192.png' className='footerLogo small'/>
             <p>This Portfolio was built using React.js</p>
+            </div>
             </div>
         </div>
         </>
