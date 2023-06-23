@@ -6,9 +6,9 @@ import './App.css';
 function ProjectSection() {
     return (
       <div className="projectSection">
-      <div className='aboutTitle'>PROJECTS</div>
+      <div className='aboutTitle' id='projects'>PROJECTS</div>
 
-      <div className='project-list'>
+      <div className='project-list' id='gs'>
         <div className='left-pane'>
         <a href="https://brettm265.github.io/game-shop/">
           <img src='/images/binoclassics.png' className='project-image'/>
@@ -27,7 +27,7 @@ function ProjectSection() {
 
       <div className='border-bottom-project'></div>
 
-      <div className='project-list'>
+      <div className='project-list' id='ttt'>
         <div className='left-pane text-box'>
         <a href="https://brettm265.github.io/TicTacToe/"><h4>TicTacToe</h4></a>
           <p>This simple TicTacToe game was one of my original projects. I later revisited this project to make the appearance visually appealing. As well as updating the codebase to better reflect my coding knowledge today.</p>
@@ -44,7 +44,7 @@ function ProjectSection() {
 
       <div className='border-bottom-project'></div>
 
-    <div className='project-list'>
+    <div className='project-list' id='wa'>
       <div className='left-pane'>
       <a href='https://brettm265.github.io/Weather-App/'>
         <img src='/images/Weather App Image.png' className='project-image'/>

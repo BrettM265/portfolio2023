@@ -4,22 +4,21 @@ import './App.css';
 function Footer() {
     return(
         <>
-        <div className='footerSection'>
+        <div className='footerSection' id='footer'>
             <div className='footerWrapper'>
-            <img src="images/Logo small.png" class='footer-logo' />
             <div className="footerRow">
             <div className='footerOne'>
             <h3>Navigation</h3>
             <div className='footerNavigation'>
             <ul>
-            <li>Top of Page</li>
-            <li>Skills</li>
-            <li>Projects</li>
+            <li><a href='#header'>Top of Page</a></li>
+            <li><a href='#skills'>Skills</a></li>
+            <li><a href='#projects'>Projects</a></li>
 
                 <ul>
-                <li>Game Shop</li>
-                <li>Tic Tac Toe</li>
-                <li>Weather App</li>
+                <li><a href='#gs'>Game Shop</a></li>
+                <li><a href='#ttt'>Tic Tac Toe</a></li>
+                <li><a href='#wa'>Weather App</a></li>
                 </ul>
 
             </ul>

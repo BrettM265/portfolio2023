@@ -69,7 +69,7 @@ function AboutSection() {
   };
   return (
     <section className="aboutBody">
-    <div className='aboutTitle'>SKILLS</div>
+    <div className='aboutTitle' id='skills'>SKILLS</div>
     <div className='ul-container'>
       <motion.ul
         style={{

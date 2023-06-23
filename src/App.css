@@ -1,6 +1,11 @@
 a{
   text-decoration: none;
   color: #669BBC;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
 }
 
 .headerSection{
@@ -10,6 +15,13 @@ a{
 }
 
 .headerLogo{
+  width:150px;
+  border-radius: 50%;
+  position: absolute;
+  left:50px;
+}
+
+.headerImage{
   width:200px;
   border-radius: 50%;
   margin-top:50px;
@@ -45,15 +57,26 @@ a{
   height:50px;
   background-color:#003049;
   width:800px;
-  margin:50px auto 0 auto;
   border: 5px solid black;
   border-radius: 25px;
-  position: sticky;
-  top: 0;
+  position: relative; 
+  margin:50px auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.navContainer button{
-  
+.navContainer a{
+  justify-content: space-between;
+  background-color: #003049;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top:5px;
+  width:20%;
+}
+
+.navDivider{
+  border-right: 5px solid black;
 }
 
 .aboutBody{
@@ -263,10 +286,4 @@ border-radius: 25px;
 }
 .footer-bottom p{
   margin:0;
-}
-
-.footer-logo{
-  border: #f0e7d6 5px solid;
-  border-radius: 50%;
-  width:200px;
 }
