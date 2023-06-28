@@ -68,8 +68,8 @@ function AboutSection() {
     hidden: { scale: 1, opacity: 0 },
   };
   return (
-    <section className="aboutBody">
-    <div className='aboutTitle' id='skills'>SKILLS</div>
+    <section className="skillsSection">
+    <div className='sectionTitle' id='skills'>SKILLS</div>
     <div className='ul-container'>
       <motion.ul
         style={{

@@ -6,7 +6,7 @@ import './App.css';
 function ProjectSection() {
     return (
       <div className="projectSection">
-      <div className='aboutTitle' id='projects'>PROJECTS</div>
+      <div className='sectionTitle' id='projects'>PROJECTS</div>
 
       <div className='project-list' id='gs'>
         <div className='left-pane'>

@@ -10,6 +10,8 @@ function Header() {
                 <h2>Web Dev II</h2>
             </div>
             <div className='navContainer'>
+                <a className='navButtons' href="#experience">Experience</a>
+                <div className='navDivider'></div>
                 <a className='navButtons' href="#skills">Skills</a>
                 <div className='navDivider'></div>
                 <a className='navButtons' href="#projects">Projects</a>
