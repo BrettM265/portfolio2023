@@ -41,7 +41,7 @@ function Footer() {
             </div>
             </div>
             <div className='footer-bottom'>
-            <img src='/images/logo192.png' className='footerLogo small'/>
+            <img src='./images/logo192.png' className='footerLogo small'/>
             <p>This Portfolio was built using React.js</p>
             </div>
             </div>

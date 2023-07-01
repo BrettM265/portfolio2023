@@ -11,7 +11,7 @@ function ProjectSection() {
       <div className='project-list' id='gs'>
         <div className='left-pane'>
         <a href="https://brettm265.github.io/game-shop/">
-          <img src='/images/binoclassics.png' className='project-image'/>
+          <img src='./images/binoclassics.PNG' className='project-image'/>
           </a>
         </div>
 
@@ -38,7 +38,7 @@ function ProjectSection() {
         </div>
 
         <div className='right-pane-img'><a href='https://brettm265.github.io/TicTacToe/'>
-          <img src='/images/TicTacToe Project Image.png' className='project-image'/></a>
+          <img src='./images/TicTacToe-Project-Image.png' className='project-image'/></a>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ function ProjectSection() {
     <div className='project-list' id='wa'>
       <div className='left-pane'>
       <a href='https://brettm265.github.io/Weather-App/'>
-        <img src='/images/Weather App Image.png' className='project-image'/>
+        <img src='./images/Weather-App-Image.png' className='project-image'/>
         </a>
       </div>
 

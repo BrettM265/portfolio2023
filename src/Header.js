@@ -3,9 +3,9 @@ import React  from 'react';
 function Header() {
     return (
         <div className='headerSection' id="header">
-            <img src='images/logo small.png' className='headerLogo' />
+            <img src='./images/Logo small.png' className='headerLogo' />
             <div className='headerSectionImage'>
-                <img src='images/logo small.png' className='headerImage' />
+                <img src='./images/Logo small.png' className='headerImage' />
                 <h1>Brett Morrison</h1>
                 <h2>Web Dev II</h2>
             </div>
