@@ -4,8 +4,8 @@ import './App.css';
 import IntroSection from './introduction';
 import Header from './Header';
 import Experience from './experience';
-import AboutSection from './about-section';
-import ProjectSection from './project-section';
+import SkillsSection from './skills';
+import ProjectSection from './projects';
 import Footer from './footer';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className='Body'>
       <Experience />
-      <AboutSection />
+      {/*<SkillsSection />*/}
       <ProjectSection />
       <Footer />
       </div>

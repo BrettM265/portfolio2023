@@ -3,16 +3,16 @@ import React  from 'react';
 function Experience(){
     return(
         <section className='experienceSection'>
-        <div className='sectionTitle' id='experience'>Experience</div>
+            <div className='sectionTitle' id='experience'>Experience</div>
             <div className='experienceContainer'>
                 <div className='experienceleft'>
                     <h2 className='experienceTitle'>Experience</h2>
-                        <p>Web Dev 2 Logical Position</p>
-                        <p>Web Dev 1 Logical Position</p>
-                        <p>Jr Web Dev Logical Position</p>
-                        <p>Manager Harper College<br /> (2019-2020 / 2022)</p>
-                        <p>Grocery Associate at Heinens<br /> (2015-2017)</p>
-                        <a href=''><button className='resumeButton'>Download Resume</button></a>
+                    <p>Web Dev 2 Logical Position</p>
+                    <p>Web Dev 1 Logical Position</p>
+                    <p>Jr Web Dev Logical Position</p>
+                    <p>Manager Harper College<br /> (2019-2020 / 2022)</p>
+                    <p>Grocery Associate at Heinens<br /> (2015-2017)</p>
+                    <a href=''><button className='resumeButton'>Download Resume</button></a>
                 </div>
                 <div className='experienceright'>
                     <h2 className='experienceTitle'>Current Role</h2>

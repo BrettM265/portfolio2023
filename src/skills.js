@@ -3,7 +3,7 @@ import { useState } from "react";
 import {motion, AnimatePresence} from "framer-motion/dist/framer-motion";
 import './App.css';
 
-function AboutSection() {
+function SkillsSection() {
 
   const data = [
     {
@@ -128,4 +128,4 @@ function AboutSection() {
   );
 };
 
-export default AboutSection
+export default SkillsSection

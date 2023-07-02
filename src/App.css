@@ -1,16 +1,61 @@
+/* Root Responsive CSS Start */
+
 :root {
   --bg-yellow-blue: linear-gradient(#f0e7d6, #669BBC);
   --bg-blue-yellow: linear-gradient(#669BBC, #f0e7d6);
+  --nav-para: 24px;
+  --nav-padding-top: 5px;
   --big-para: 20px;
   --bg-dark-blue: #003049;
   --section-border-bottom: 5px solid black;
   --min-section-height: 650px;
   --title-font-size: 48px;
-  --large-section-width: 1200px;
+  --large-section-width: 1100px;
   --medium-section-width: 1000px;
   --small-section-width: 800px;
+  --project-image-width: 500px;
+  
 }
 
+@media(max-width: 1200px) {
+  :root {
+    --nav-para: 20px;
+    --nav-padding-top: 10px;
+    --large-section-width: 900px;
+    --medium-section-width: 900px;
+    --small-section-width: 700px;
+
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  :root {
+    --nav-para: 18px;
+    --nav-padding-top: 12px;
+    --large-section-width: 750px;
+    --medium-section-width: 700px;
+    --small-section-width: 600px;
+    --big-para: 16px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  :root {
+    --nav-para: 16px;
+    --nav-padding-top: 12px;
+    --large-section-width: 550px;
+    --medium-section-width: 500px;
+    --small-section-width: 500px;
+    --big-para: 12px;
+  }
+
+}
+
+/* Root Responsive CSS End */
 
 a{
   text-decoration: none;
@@ -22,14 +67,7 @@ button{
   cursor: pointer;
 }
 
-.resumeButton{
-  background-color: var(--bg-dark-blue);
-  border: 5px solid black;
-  border-radius: 25px;
-  font-size: var(--big-para);
-  color: white;
-  padding: 10px 20px;
-}
+/* Header.js CSS Start */
 
 .headerSection{
   background: var(--bg-yellow-blue);
@@ -55,7 +93,7 @@ button{
   background-image: url("background-images/grassy-landscape.jpg");
   background-repeat: none;
   height: 500px;
-  width: 1000px;
+  width: var(--medium-section-width);
   border: 5px solid black;
   border-radius: 25px;
   margin:0 auto;
@@ -80,24 +118,30 @@ button{
 .navContainer{
   height:50px;
   background-color:var(--bg-dark-blue);
-  max-width:800px;
+  max-width:var(--small-section-width);
   border: 5px solid black;
   border-radius: 25px;
   position: relative; 
   margin:50px auto 0 auto;
   display: flex;
   justify-content: space-evenly;
+  font-size: var(--nav-para);
+  font-weight: 600;
+}
+
+.navDivider{
+  border-right: 5px solid black;
 }
 
 .navContainer a{
-  justify-content: space-between;
-  background-color: var(--bg-dark-blue);
   color: white;
-  font-size: 24px;
-  font-weight: 600;
-  padding-top:5px;
+  padding-top:var(--nav-padding-top);
   width:15%;
 }
+
+/* Header.js CSS END */
+
+/* experience.js CSS Start */
 
 .experienceSection{
   background: var(--bg-blue-yellow);
@@ -117,7 +161,7 @@ button{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin:40px auto 100px auto;
-  max-width:1000px;
+  width:var(--medium-section-width);
   text-align: center;
   background-color: white;
   border: 5px solid black;
@@ -129,9 +173,18 @@ button{
   padding:5px 20px;
 }
 
-.navDivider{
-  border-right: 5px solid black;
+.resumeButton{
+  background-color: var(--bg-dark-blue);
+  border: 5px solid black;
+  border-radius: 25px;
+  font-size: var(--big-para);
+  color: white;
+  padding: 10px 20px;
 }
+
+/* experience.js CSS End */
+
+/* skills.js CSS Start */
 
 .skillsSection{
   background: var(--bg-yellow-blue);
@@ -147,7 +200,6 @@ button{
   text-align: center;
   padding-left:5%;
 }
-
 
 .card-item{
   display:flex;
@@ -165,18 +217,17 @@ button{
   font-weight:600;
 }
 
-
 .card-item:hover{
   cursor: pointer;
-  }
+}
 
 .card-title{
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  .card-text{
-    padding:0 10px;
-  }
+.card-text{
+  padding:0 10px;
+}
 
 .about-item{
   position: fixed;
@@ -193,6 +244,10 @@ button{
   width: 100px;
 }
 
+/* skills.js CSS End */
+
+
+/* projects.js CSS Start */
 
 .projectSection{
   background: var(--bg-blue-yellow);
@@ -205,11 +260,7 @@ button{
   grid-template-columns: repeat(2, 1fr);
   margin:0 auto 0 auto;
   max-width: var(--large-section-width);
-  padding: 5% 5% 5% 5%;
-}
-
-.project-list p{
-padding:0 30px;
+  padding: 100px 0;
 }
 
 .border-bottom-project{
@@ -218,17 +269,19 @@ padding:0 30px;
   margin:0 auto;
 }
 
-
 .project-image{
 border: 5px solid black;
 border-radius: 25px;
+background-size: contain;
+width:var(--project-image-width);
+max-height:400px;
 }
 
 .text-box{
   background-color:white;
   border: 5px solid black;
   border-radius: 10px;
-  max-width:600px;
+  width:550px;
   font-size: var(--big-para);
   text-align: center;
 }
@@ -250,14 +303,17 @@ border-radius: 25px;
   font-weight: 600;
 }
 
-.project-image{
-  background-size: contain;
-  width:500px;
-  max-height:400px;
+.text-box p{
+  padding:0 30px;
 }
+
 .right-pane-img{
   text-align: right;
 }
+
+/* projects.js CSS End */
+
+/* footer.js CSS Start */
 
 .footerSection{
   background: var(--bg-yellow-blue);
@@ -270,7 +326,7 @@ border-radius: 25px;
 }
 
 .footerWrapper{
-  max-width: var(--large-section-width);
+  width: var(--large-section-width);
   margin:0 auto 0 auto;
   justify-content: space-evenly;
   padding: 25px 0 0 0;
@@ -294,6 +350,7 @@ border-radius: 25px;
   max-width:400px;
   
 }
+
 .footerOne ul{
   list-style-type: none;
   color:white;
@@ -317,21 +374,106 @@ border-radius: 25px;
   max-width:400px;
 }
 
-
 .small{
   width:30px!important;
   height:30px!important;
   padding-right:10px;
 }
 
-.social-icons{
-  
-}
-
 .footer-bottom{
   text-align: center;
   display: block;
 }
+
 .footer-bottom p{
   margin:0;
 }
+
+/* footer.js CSS End */
+
+/* Responsive CSS Start */
+
+@media(max-width: 1200px) {
+
+  :root {
+    --nav-para: 20px;
+    --nav-padding-top: 10px;
+    --large-section-width: 900px;
+    --medium-section-width: 900px;
+    --small-section-width: 700px;
+    --big-para: 18px;
+  }
+
+  .project-image{
+    width:400px;
+    height:300px;
+  }
+
+  .text-box{
+    width:450px;
+    height:300px;
+  }
+
+  .text-box-link a{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .text-box p{
+    padding:0 10px;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .project-image{
+    width:350px;
+    height:300px;
+  }
+
+  .text-box{
+    width:350px;
+    height:300px;
+  }
+
+  .text-box-link a{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .text-box p{
+    padding:0 10px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .project-list{
+    display: block;
+    margin:0 auto 0 auto;
+    max-width: var(--large-section-width);
+    padding: 100px 0;
+  }
+
+  .left-pane{
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .left-pane-img{
+    text-align: center;
+  }
+
+  .right-pane{
+    margin:0 auto;
+  }
+
+  .right-pane-img{
+    text-align: center;
+  }
+
+}
+
+/* Responsive CSS End */
