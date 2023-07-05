@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio2023/static/css/main.cf36094b.chunk.css",
-  "main.js": "/portfolio2023/static/js/main.47672b15.chunk.js",
-  "main.js.map": "/portfolio2023/static/js/main.47672b15.chunk.js.map",
+  "main.css": "/portfolio2023/static/css/main.16f3a00a.chunk.css",
+  "main.js": "/portfolio2023/static/js/main.6aba0ac8.chunk.js",
+  "main.js.map": "/portfolio2023/static/js/main.6aba0ac8.chunk.js.map",
   "static/js/1.0f42ad21.chunk.js": "/portfolio2023/static/js/1.0f42ad21.chunk.js",
   "static/js/1.0f42ad21.chunk.js.map": "/portfolio2023/static/js/1.0f42ad21.chunk.js.map",
   "static/js/2.2cc28552.chunk.js": "/portfolio2023/static/js/2.2cc28552.chunk.js",
@@ -9,8 +9,8 @@
   "runtime~main.js": "/portfolio2023/static/js/runtime~main.a1f0407b.js",
   "runtime~main.js.map": "/portfolio2023/static/js/runtime~main.a1f0407b.js.map",
   "static/media/App.css": "/portfolio2023/static/media/grassy-landscape.32b2a833.jpg",
-  "static/css/main.cf36094b.chunk.css.map": "/portfolio2023/static/css/main.cf36094b.chunk.css.map",
+  "static/css/main.16f3a00a.chunk.css.map": "/portfolio2023/static/css/main.16f3a00a.chunk.css.map",
   "index.html": "/portfolio2023/index.html",
-  "precache-manifest.30e437283e13bf93d68ff27e909b9627.js": "/portfolio2023/precache-manifest.30e437283e13bf93d68ff27e909b9627.js",
+  "precache-manifest.f6d0da8b0319c0fd516bb3497d91f332.js": "/portfolio2023/precache-manifest.f6d0da8b0319c0fd516bb3497d91f332.js",
   "service-worker.js": "/portfolio2023/service-worker.js"
 }
