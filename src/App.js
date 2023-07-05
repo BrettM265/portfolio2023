@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className='Body'>
       <Experience />
-      {/*<SkillsSection />*/}
+      <SkillsSection />
       <ProjectSection />
       <Footer />
       </div>
