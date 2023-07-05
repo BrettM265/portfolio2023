@@ -58,7 +58,6 @@ function SkillsSection() {
 
   const variants = {
     visible: {
-      scale: 1.5,
       boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
       y: -100,
       x: 0,
