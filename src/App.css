@@ -207,7 +207,7 @@ button{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin:0 auto 0 auto;
-  max-width: var(--large-section-width);
+  width: var(--large-section-width);
   text-align: center;
   padding-left:5%;
 }
@@ -247,7 +247,7 @@ button{
   border: solid black;
   border-radius: 25px;
   background: rgb(255, 255, 255);
-  height: 200px;
+  height: 225px;
   width: 500px;
 }
 
@@ -406,6 +406,16 @@ max-height:400px;
 
 @media(max-width: 1200px) {
 
+  .card-item{
+    height:200px;
+    width:400px;
+  }
+
+  .about-item{
+    left: 30%;
+    top: 40%;
+  }
+
   .project-image{
     width:400px;
     height:300px;
@@ -429,6 +439,18 @@ max-height:400px;
 
 @media (max-width: 900px) {
 
+  .card-item{
+    height:200px;
+    width:325px;
+  }
+
+  .about-item{
+    height: 225px;
+    width: 450px;
+    left: 22%;
+  }
+
+
   .project-image{
     width:350px;
     height:300px;
@@ -451,6 +473,22 @@ max-height:400px;
 }
 
 @media (max-width: 600px) {
+
+  .card-item{
+    height:200px;
+    width:450px;
+  }
+
+  .about-item{
+    height: 225px;
+    width: 350px;
+    left: 18%;
+  }
+
+  .ul-about{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .project-list{
     display: block;
