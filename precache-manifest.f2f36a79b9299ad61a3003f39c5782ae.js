@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "85fc9bfd9356bd687cd0",
+    "revision": "af353c3e4d70a867c85b",
     "url": "/portfolio2023/static/css/main.fb8e6458.chunk.css"
   },
   {
-    "revision": "85fc9bfd9356bd687cd0",
-    "url": "/portfolio2023/static/js/main.85fc9bfd.chunk.js"
+    "revision": "af353c3e4d70a867c85b",
+    "url": "/portfolio2023/static/js/main.af353c3e.chunk.js"
   },
   {
     "revision": "0f42ad21f20e3536abc0",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/portfolio2023/static/media/grassy-landscape.32b2a833.jpg"
   },
   {
-    "revision": "e8f48e05fbb9bef5c50e79241a8e3830",
+    "revision": "c0834a2ad274d3ef08fffa695abbfc17",
     "url": "/portfolio2023/index.html"
   }
 ];
